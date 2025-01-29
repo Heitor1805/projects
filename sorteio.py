@@ -1,9 +1,9 @@
 import random
-aleatorio=random.randint(1,11)
-for i in range(1,11):
-    n=int(input("Número:"))
-    if aleatorio==n:
-        print("Correto")
+random1=random.randint(1,101)
+for i in range(1,101):
+    n=int(input("Number:"))
+    if random1==n:
+        print("Correct")
         break
     else:
-        print("Tente denovo")   
+        print("Try again")   
